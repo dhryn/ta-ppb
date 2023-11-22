@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "title": "Dota 2",
+        "category": "MOBA",
+        "publisher": "Valve",
+        "year": 2013,
+        "img": "https://images2.alphacoders.com/474/474206.jpg",
+        "img2": "./assets/games/dota-2.png",
+        "trailer": "https://www.youtube.com/watch?v=SmnqsdeHFT0&pp=ygUOZG90YSAyIHRyYWlsZXI%3D",
+        "active": true
+    },
+    {
+        "id": 2,
+        "title": "The Elder Scrolls V: Skyrim",
+        "category": "RPG",
+        "publisher": "Bethesda Game Studios",
+        "year": 2011,
+        "img": "https://i.pinimg.com/originals/df/36/2a/df362ad77fdfe98baa9b764e08698bf2.jpg",
+        "img2": "./assets/games/skyrim.png",
+        "trailer": "https://www.youtube.com/watch?v=JSRtYpNRoN0&pp=ygUOc2t5cmltIHRyYWlsZXI%3D",
+        "active": false
+    },
+    {
+        "id": 3,
+        "title": "Euro Truck Simulator 2",
+        "category": "Simulation",
+        "publisher": "SCS Software",
+        "year": 2012,
+        "img": "https://cdn.akamai.steamstatic.com/steam/apps/227300/capsule_616x353.jpg?t=1699864851",
+        "img2": "./assets/games/euro-truck-simulator-2.png",
+        "trailer": "https://www.youtube.com/watch?v=xlTuC18xVII&pp=ygUkZXVybyB0cnVjayBzaW11bGF0b3IgMiBmaXJzdCB0cmFpbGVy",
+        "active": false
+    },
+    {
+        "id": 4,
+        "title": "ARK Survival Ascended",
+        "category": "Survival",
+        "publisher": "Studio Wildcard",
+        "year": 2023,
+        "img": "https://pbs.twimg.com/media/F9WVKYVWwAA4PU3.jpg:large",
+        "img2": "./assets/games/ark-survival-ascended.png",
+        "trailer": "https://www.youtube.com/watch?v=0gLODoXanog&pp=ygUdYXJrIHN1cnZpdmFsIGFzY2VuZGVkIHRyYWlsZXI%3D",
+        "active": false
+    },
+    {
+        "id": 5,
+        "title": "The Witcher 3: Wild Hunt",
+        "category": "RPG",
+        "publisher": "CD Projekt Red",
+        "year": 2015,
+        "img": "https://www.xboxtavern.com/wp-content/uploads/2023/01/witcher-3-next-gen.jpg",
+        "img2": "./assets/games/the-witcher-3.png",
+        "trailer": "https://www.youtube.com/watch?v=TZ_G6XiHoUA&pp=ygUbdGhlIHdpdGNoZXIgMyBmaXJzdCB0cmFpbGVy",
+        "active": false
+    }
+]
