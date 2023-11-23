@@ -1,5 +1,4 @@
 import React from 'react'
-import {SwiperSlide} from 'swiper/react'
 
 function GameSlide({game, active, toggleVideo}) {
   return (
@@ -17,7 +16,7 @@ function GameSlide({game, active, toggleVideo}) {
         </div>
         <div className="gameContent">
             <h2></h2>
-            <p>{game.category} - {game.year} - {game.publisher}</p>
+            <p>{game.category} - {game.publisher}</p>
             <div className="buttons">
                 <a href="#" className={`playbtn ${active ? 'active': undefined}`} onClick={toggleVideo}>
                     <span className="pause">                                        

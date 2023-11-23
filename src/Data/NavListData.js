@@ -19,13 +19,6 @@ const navListData = [
         name: 'My library',
         icon: 'bi-heart',
         active: false,
-    },
-    {
-        _id: 4,
-        target: 'bag',
-        name: 'My bag',
-        icon: 'bi-bag',
-        active: false,
     }
 ]
 

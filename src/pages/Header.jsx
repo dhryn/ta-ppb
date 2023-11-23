@@ -12,10 +12,6 @@ function Header({toggleActive}) {
                 <i className="bi bi-heart-fill"></i>
                 <span className="like">0</span>
             </a>
-            <a href="#" className="icon">
-                <i className="bi bi-bag-fill"></i>
-                <span className="bag">0</span>
-            </a>
             <a href="" className="icon">
                 <i className="bi bi-person-fill"></i>
                 <span className="profile"></span>

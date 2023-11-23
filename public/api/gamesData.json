@@ -53,5 +53,60 @@
         "img2": "./assets/games/the-witcher-3.png",
         "trailer": "https://www.youtube.com/watch?v=TZ_G6XiHoUA&pp=ygUbdGhlIHdpdGNoZXIgMyBmaXJzdCB0cmFpbGVy",
         "active": false
+    },
+    {
+        "id": 6,
+        "title": "Northgard",
+        "category": "Strategy",
+        "publisher": "Shiro Unlimited",
+        "year": 2018,
+        "img": "https://images8.alphacoders.com/121/1213420.jpg",
+        "img2": "",
+        "trailer": "",
+        "active": false
+    },
+    {
+        "id": 7,
+        "title": "Forza Horizon 5",
+        "category": "Racing",
+        "publisher": "Xbox Game Studios",
+        "year": 2021,
+        "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/11/forza-horizon-5-sand-dunes-logo.jpg",
+        "img2": "",
+        "trailer": "",
+        "active": false
+    },
+    {
+        "id": 8,
+        "title": "Counter-Strike 2",
+        "category": "FPS",
+        "publisher": "Valve",
+        "year": 2023,
+        "img": "https://cdn1-production-images-kly.akamaized.net/3f5HuK5K8iLagn0KQSu4TWWno1Q=/0x0:1279x801/1200x675/filters:quality(75):strip_icc():format(webp):watermark(kly-media-production/assets/images/watermarks/liputan6/watermark-color-landscape-new.png,1100,20,0)/kly-media-production/medias/4369187/original/076978600_1679566946-Counter_strike_2.jpg",
+        "img2": "",
+        "trailer": "",
+        "active": false
+    },
+    {
+        "id": 9,
+        "title": "Cities Skylines 2",
+        "category": "City Builder",
+        "publisher": "Paradox Interactive",
+        "year": 2023,
+        "img": "https://images.shopcdn.co.uk/32/37/3237fc85949b16bbba90c87919396ffd/1500x843/webp/resize",
+        "img2": "",
+        "trailer": "",
+        "active": false
+    },
+    {
+        "id": 10,
+        "title": "Baldur's Gate 3",
+        "category": "RPG",
+        "publisher": "Larian Studios",
+        "year": 2023,
+        "img": "https://i.kym-cdn.com/photos/images/original/001/765/377/d47.jpg",
+        "img2": "",
+        "trailer": "",
+        "active": false
     }
 ]

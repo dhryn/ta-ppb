@@ -18,7 +18,7 @@ function GameSwiper({games}) {
         effect={'coverflow'}
         grabCursor={true}
         navigation={true}
-        loop={true}
+        loop={false}
         centeredSlides={true}
         slidesPerView={'auto'}
         coverflowEffect={{
