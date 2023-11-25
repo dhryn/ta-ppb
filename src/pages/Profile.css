@@ -1,4 +1,4 @@
-.profilePicture, .about, .myProfile {
+.about, .profilePicture {
     display: flex;
     align-items: center;
     justify-content: center;
