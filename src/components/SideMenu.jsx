@@ -7,7 +7,7 @@ import SocialListItem from './SocialListItem'
 
 function SideMenu({active, sectionActive}) {
     const [navData, setNavData] = useState(navListData)
-    const [socialData, setSocialData] = useState(socialListData)
+    const [socialData] = useState(socialListData)
 
     const handleNavOnCLick = (id, target) => {
         console.log(id)
@@ -37,7 +37,9 @@ function SideMenu({active, sectionActive}) {
         </ul>
         <ul className="social">
             {socialData.map(item => (
-                <SocialListItem key={item.id} item={item}/>
+                <SocialListItem 
+                    key={item.id} 
+                    item={item}/>
             ))}
         </ul>
     </div>

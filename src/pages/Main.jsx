@@ -33,6 +33,11 @@ function Main() {
       name: 'library',
       ref: libraryRef,
       active: false
+    },
+    {
+      name: 'profile',
+      ref: profileRef,
+      active: false
     }
   ]
 
@@ -52,14 +57,14 @@ function Main() {
 
   const fetchData=()=>{
     fetch('http://localhost:3000/api/gamesData.json')
-      .then(res=>res.json())
-      .then(data=>{
+      .then(res => res.json())
+      .then(data => {
         setGames(data)
       })
       .catch(e => console.log(e.message))
   }
 
-  useEffect(()=>{
+  useEffect(() => {
     fetchData()
   },[])
 
@@ -74,6 +79,7 @@ function Main() {
                 <Home games={games} reference={homeRef}/>
                 <Categories games={games} reference={categoriesRef}/>
                 <Library games={library} reference={libraryRef}/>
+                <Profile reference={profileRef}/>
               </>
             )}
           </div>

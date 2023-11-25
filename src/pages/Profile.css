@@ -1,0 +1,22 @@
+.row, .profilePicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilePicture img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.about h4 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+}
