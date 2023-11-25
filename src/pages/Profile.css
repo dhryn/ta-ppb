@@ -1,4 +1,4 @@
-.row, .profilePicture {
+.profilePicture, .about, .myProfile {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@
     border-radius: 50%;
 }
 
-.about {
+h4 {
     margin-top: 20px;
     width: 500px;
 }

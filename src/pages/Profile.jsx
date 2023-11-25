@@ -7,7 +7,7 @@ function Profile({reference}) {
     <section id="profile" className="profile" ref={reference}>
       <div className="container-fluid">
         <div className="row mb-3">
-          <h1>My Profile</h1>
+          <h1 className='myProfile'>My Profile</h1>
         </div>
         <div className="row">
           <div className="profilePicture">
