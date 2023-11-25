@@ -7,7 +7,7 @@ function Categories({games, reference}) {
     const [data, setData] = useState(games)
     const [filters, setFilters] = useState(filterListData)
 
-    const handleFilterGames = (category) => {
+    const handleFilterGames = category => {
         setFilters(
             filters.map(filter => {
                 filter.active = false
@@ -66,7 +66,7 @@ function Categories({games, reference}) {
                 </div>
             </div>
             <div className="row">
-                {games.map(game => (
+                {data.map(game => (
                     <GameCard key={game.id} game={game}/>
                 ))}
             </div>

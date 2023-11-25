@@ -19,6 +19,13 @@ const navListData = [
         name: 'My library',
         icon: 'bi-heart',
         active: false,
+    },
+    {
+        _id: 4,
+        target: 'profile',
+        name: 'My profile',
+        icon: 'bi-person',
+        active: false,
     }
 ]
 
