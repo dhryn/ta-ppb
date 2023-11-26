@@ -56,7 +56,7 @@ const Main = () => {
   };
 
   const fetchData = () => {
-    fetch('http://localhost:3000/api/gamesData.json')
+    fetch('https://my-json-server.typicode.com/dhryn/ta-ppb/games')
       .then((res) => res.json())
       .then((data) => {
         setGames(data);
