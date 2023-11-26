@@ -1,15 +1,15 @@
-import React, { useEffect, useState, useRef, useContext } from 'react'
-import { AppContext } from '../App'
-import './Main.css'
-import SideMenu from '../components/SideMenu'
-import Header from './Header'
-import Home from './Home'
-import Categories from './Categories'
-import Library from './Library'
-import Profile from './Profile'
+import React, { useEffect, useState, useRef, useContext } from 'react';
+import { AppContext } from '../App';
+import './Main.css';
+import SideMenu from '../components/SideMenu';
+import Header from './Header';
+import Home from './Home';
+import Categories from './Categories';
+import Library from './Library';
+import Profile from './Profile';
 
-function Main() {
-  const {library} = useContext(AppContext)
+const Main = () => {
+  const { library } = useContext(AppContext)
   const [active, setActive] = useState(false)
   const [games, setGames] = useState([])
 
@@ -42,48 +42,48 @@ function Main() {
   ]
 
   const handleToggleActive = () => {
-    setActive(!active)
-  }
+    setActive(!active);
+  };
 
-  const handleSectionActive = target => {
-    sections.map(section => {
-      section.ref.current.classList.remove('active')
-      if(section.ref.current.id===target) {
-        section.ref.current.classList.add('active')
+  const handleSectionActive = (target) => {
+    sections.map((section) => {
+      section.ref.current.classList.remove('active');
+      if (section.ref.current.id === target) {
+        section.ref.current.classList.add('active');
       }
-      return section
-    })
-  }
+      return section;
+    });
+  };
 
-  const fetchData=()=>{
+  const fetchData = () => {
     fetch('http://localhost:3000/api/gamesData.json')
-      .then(res => res.json())
-      .then(data => {
-        setGames(data)
+      .then((res) => res.json())
+      .then((data) => {
+        setGames(data);
       })
-      .catch(e => console.log(e.message))
-  }
+      .catch((e) => console.log(e.message));
+  };
 
   useEffect(() => {
-    fetchData()
-  },[])
+    fetchData();
+  }, []);
 
   return (
     <main>
-        <SideMenu active={active} sectionActive={handleSectionActive}/>
-        <div className={`container ${active ? 'active': undefined}`}>
-          <Header toggleActive={handleToggleActive}/>
-          <div className="container-fluid">
-            {games && games.length > 0 && (
-              <>
-                <Home games={games} reference={homeRef}/>
-                <Categories games={games} reference={categoriesRef}/>
-                <Library games={library} reference={libraryRef}/>
-                <Profile reference={profileRef}/>
-              </>
-            )}
-          </div>
+      <SideMenu active={active} sectionActive={handleSectionActive} />
+      <div className={`container ${active ? 'active' : undefined}`}>
+        <Header toggleActive={handleToggleActive} />
+        <div className="container-fluid">
+          {games && games.length > 0 && (
+            <>
+              <Home games={games} reference={homeRef} />
+              <Categories games={games} reference={categoriesRef} />
+              <Library games={library} reference={libraryRef} />
+              <Profile reference={profileRef} />
+            </>
+          )}
         </div>
+      </div>
     </main>
   )
 }

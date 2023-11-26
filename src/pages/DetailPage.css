@@ -1,0 +1,30 @@
+.detailContent {
+    position: relative;
+    width: 95%;
+    height: 80%;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: var(--bg);
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.15),
+        5px 5px 15px rgba(0, 0, 0, 0.35);
+    transition: 1s;
+    margin: 0 auto;
+    padding: auto 0;
+}
+
+.detailContainer h1, .detailContainer p, .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailContainer h1 {
+    margin: 20px 0;
+}
+
+.detailImg {
+    width: 700px;
+    height: 400px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
