@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     const fetchGamesData = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/gamesData.json");
+        const response = await fetch("https://my-json-server.typicode.com/dhryn/ta-ppb/games");
         if (!response.ok) {
           throw new Error("Failed to fetch games data");
         }
